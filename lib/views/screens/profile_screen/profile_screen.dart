@@ -462,6 +462,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
                 ],
               ),
+              const AppPadding(),
               labelWidget(context, label: "定休日*", hint: null),
               GetBuilder<BusinessDayController>(builder: (con) {
                 return SizedBox(
